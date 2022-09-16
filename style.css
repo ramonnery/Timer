@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&display=swap');
+
+@font-face {
+    font-family: 'digital7';
+    font-style: normal;
+    font-weight: normal;
+    src: url('digital-7-mono.ttf') format('truetype'); 
+}
+
+.container {
+    align-items: center;
+    background-color: #12041a;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+.background {
+    border: 3px solid transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 40px #a200ffb0;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.digitos {
+    color: #a200ff;
+    font-family: 'digital7';
+    font-size: 110px;
+    text-align: center;
+}
+
+.dois-pontos {
+    width: 55px;
+}
+
+#milissegundo {
+    font-size: 40px;
+    margin-left: 15px;
+    width: 55px;
+}
+
+span {
+    display: inline-block;
+    margin: 20px;
+    width: 130px;
+}
+
+
+.container-btn {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+}
+
+.btn {
+    border: none;
+    color: rgb(245, 245, 245);
+    cursor: pointer;
+    font-family: 'Fira Code', monospace;
+    font-size: 18px;
+    font-weight: 500;
+    height: 45px;
+    margin: 20px;
+    text-transform: uppercase;
+    width: 120px;   
+}
+
+
+
+.btn-iniciar {
+    background-color: #3a9100;
+    transition: all .5s;
+}
+
+.btn-iniciar:hover {
+    background-color: #4cbd01;
+    text-decoration: underline;
+}
+
+.btn-pausar {
+    background-color: rgb(160, 160, 0);
+    transition: all .5s;
+}
+
+.btn-pausar:hover {
+    background-color: rgb(204, 204, 0);;
+    text-decoration: underline;
+}
+.btn-resetar {
+    background-color: rgb(158, 0, 0);
+    transition: all .5s;
+}
+
+.btn-resetar:hover {
+    background-color: rgb(206, 0, 0);
+    text-decoration: underline;
+}
